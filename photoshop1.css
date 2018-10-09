@@ -1,0 +1,298 @@
+body {border-top:4px solid  #81b300;}
+h1 {font-family: georgia;
+    font-size: 44.99px;
+}
+h1::first-letter {font-size:57.49px;
+}
+.free {position: absolute;
+        left:3%;
+        top:86px;
+        color: rgba(0, 0, 0, 0.555);
+        font-size:15px;
+}
+.ikonos .line {
+        float: right;
+        padding-left: 50px; 
+        background-color: #81b300;
+        border-radius: 0px 0px 20px 20px; 
+        width: 313px;    
+        height: 61px; 
+        font-size:40px; 
+}            
+        
+        
+
+@media only screen and (min-width: 1125px) {
+    .container {
+        max-width: 1125px;
+    }
+}
+.list {color: #81b300;
+    margin-top: 16%;
+    margin-right: 4%;
+    font-size:15px;
+    
+}
+.list li {
+    list-style-type: none;
+    float: right;
+}
+.uppcontainer {background-color:#81b300;
+    height: 85px;
+    margin-top: 46px;
+}
+
+.menu {float:left;
+        margin-top:23px;
+}
+.menu li  {
+    margin-top: 10px;
+    list-style-type: none;
+    font-size: 17px;
+    padding-right: 15px;
+    float: left;
+}
+.menu ul {
+    padding-left: 0px;
+}
+    
+.menu li a {
+    text-decoration: none;
+    color:white;
+}
+.menu li a:hover {color:black;}
+.home {float: right;
+    margin-top:23px;
+   
+} 
+.home form {float: right;}
+
+form.example button {
+    
+    width: 85px;
+    height: 39px;
+    background: white;
+    color:#81b300;
+    font-size: 15px;
+    border: 1px solid grey;
+    
+    
+}
+form.example input[type=text] {
+    height: 39px;
+    font-size: 15px;
+    border: 1px solid grey;
+    width: 271px;
+    background: #f1f1f1;
+    margin-right: -5px;
+}
+.photo-wrapper {
+    background-color: #f2f2f2;
+}
+.photo img {
+    width: 100%;
+    margin-top: 39px;
+    border: 12px solid white;
+}
+
+.photo2 {text-align: center;
+}
+
+
+.ikoneles {
+    float:left;
+    display: block;
+    width: 25%;
+    padding:12px; 
+}
+.iconspeoples {
+    margin-top:56px;
+
+}
+.iconspeoples a {
+    text-decoration:none;
+    text-align: center;
+}
+.icontext h4{
+    color:#84b507;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:22.5px;
+}
+.icontext p{
+        color:#888888;
+        font-size: 16.25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.bearhelper {
+    display: block;
+    float:left;
+    width: 25%;
+    padding:12px;
+    text-align: left;
+}
+.photobeary img {
+    width: 100%;
+    
+    border: 3px solid aquamarine;
+}
+.bearhelper a {
+    float: right;
+    color:#84b507;
+}
+.textster{
+    display: block;
+    float: left;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.textster h5 {
+    margin: 30 0 30 0;
+    color:#999999;
+}
+.textster p {
+    color:#999999;
+}
+.textsteress {
+    float: left;
+    width: 25%;
+    padding:12px;
+    
+    
+}
+.textsteress1{
+    float: left;
+    width: 25%;
+    padding:12px;
+    
+}
+.textsteress1 p a {
+    text-decoration: none;
+    color:#999999;
+   
+}
+.textsteress1 p {
+    border-bottom: 1px solid #999999;
+}
+.textstress2{
+    float: left;
+    width: 25%;
+    padding:12px;
+    
+}
+.textstress3 {
+    float: left;
+    width: 25%;
+    padding:12px;
+}
+.foooter-wrapper {
+    background-color: #3b3b3b;
+}
+.textstress2 a{
+float: right;
+color:#84b507;
+}
+ form.inpute input[type=text] {
+    background-color: #1f1f1f;
+    color:#999999;
+    border:none;
+    border-radius:5px;
+    width: 262px;
+    height: 38px;
+    padding: 10px;
+}
+.inpute button {
+    color:#84b507;
+    background-color: #1f1f1f;
+    border:none;
+    border-radius:5px;
+    height: 39px;
+    width: 101px;
+}
+.linen {
+    background-color: #2e2e2e;
+    color:#737373;
+    height: 75px;
+}
+.ending1 {
+    float:left;
+}
+.ending2 {
+    float: right;
+}
+.ending {
+    margin-top:35px;
+}
+@media only screen and (max-width:1200px){
+    form.example button {
+    
+        width: 34%;
+        height: 45%;
+        background: white;
+        color: #81b300;
+        font-size: 15px;
+        border: 1px solid grey;
+        
+        
+    }
+    form.example input[type=text] {
+        height: 45%;
+        font-size: 15px;
+        border: 1px solid grey;
+        width: 75%;
+        background: #f1f1f1;
+        margin-right: -12%;
+    }
+    form.inpute input[type=text] {
+        background-color: #1f1f1f;
+        color: #999999;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        height: 2%;
+        padding: 10px;
+    }
+    .inpute button {
+        color:#84b507;
+        background-color: #1f1f1f;
+        border:none;
+        border-radius:5px;
+        height: 2%;
+        width: 36%;
+    }
+}
+@media only screen and (max-width:800px){
+    
+    .ikonos .line {
+        float: right;
+        padding-left: 3%;
+        background-color: #81b300;
+        border-radius: 0px 0px 20px 20px;
+        width: 29%;
+        height: 5%;
+        font-size: 60%;
+        margin-top: -13%;
+        padding-top: 1%;
+    }
+    .list {
+        color: #81b300;
+        margin-top: 0%;
+        margin-right: 0%;
+        font-size: 15px;
+        padding-top: 2%;
+    }
+    .uppcontainer {
+        background-color: #81b300;
+        margin-top: 6%;
+        width: 100%;
+        height: fit-content;
+    }
+    form.example input[type=text] {
+        height: auto;
+        font-size: 15px;
+        border: 1px solid grey;
+        width: 68%;
+        background: #f1f1f1;
+        margin-right: -12%;
+    }
+
+}
